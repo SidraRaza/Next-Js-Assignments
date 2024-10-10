@@ -1,0 +1,10 @@
+import React from 'react'
+const page = () => {
+  return (
+    <div className='h-[450px]'>
+    <h2 className='text-4xl py-40 text-center'>Home Page</h2>
+    </div>
+  )
+}
+
+export default page
