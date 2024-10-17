@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className='bg-purple-400 p-6 '>
-     <div className='flex flex-col-1 justify-end lg:gap-4 gap-0  '>
+    <div className='bg-purple-400 p-5 '>
+     <div className='flex flex-col-1 justify-end lg:gap-2 gap-0  '>
         <div>
         <h1 className='text-white lg:mr-[750px] mr-0 text-2xl ml-3 pl-2'>Porfolio</h1>
         </div>
