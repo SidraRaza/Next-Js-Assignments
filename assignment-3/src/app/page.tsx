@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page = () => {
   return (
-    <div className='bg-[url("/bg.webp")] h-[570px] sm:h-[550px] md:h-[600px] bg-cover bg-center bg-no-repeat relative'>
+    <div className='bg-[url("/bg.webp")] h-[570px] sm:h-[650px] md:h-[600px] bg-cover bg-center bg-no-repeat relative'>
       <div className="flex justify-center items-center text-center py-16">
         <div className="flex justify-center items-center text-center bg-purple-200 bg-opacity-40 border-2 border-dashed border-purple-700 w-full max-w-[900px] mx-4 sm:mx-6 md:mx-8 p-4 sm:p-6 md:p-8"> 
           <div className="relative">
