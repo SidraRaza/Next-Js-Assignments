@@ -17,6 +17,7 @@ const Page = () => {
       </p>
     </div>
   </div>
+  
   );
 };
 
