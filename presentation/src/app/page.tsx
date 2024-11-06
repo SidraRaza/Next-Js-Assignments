@@ -139,7 +139,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-black py-10">
-      <h1 className="text-3xl font-bold mt-20 lg:ml-0 ml-6">
+      <h1 className="text-3xl font-bold mt-20 lg:ml-0 ml-6 text-white">
         Shadcn UI & Radix UI Presentation
       </h1>
 
