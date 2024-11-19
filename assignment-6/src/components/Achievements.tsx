@@ -10,10 +10,8 @@ const Achievements = () => {
             Our Achivements
           </h1>
           <p className="lg:text-[18px] lg:w-[1152px] lg:h-[54px] w-[362px] h-[81px]   text-center leading-[27px] lg:px-4 px-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Suspendisse varius enim in eros elementum tristique. 
           </p>
         
       </div>
