@@ -9,14 +9,14 @@ const Achievements = () => {
           <h1 className="lg:text-[48px]  lg:w-[1152px] lg:h-[58px] text-[32px] w-[380px] h-[42px]  font-semibold text-center lg:leading-[57.6px] leading-[41.6px] my-6">
             Our Achivements
           </h1>
-          <p className="lg:text-[18px] lg:w-[1152px] lg:h-[54px] w-[362px] h-[81px]   text-center leading-[27px] lg:px-4 px-0">
+          <p className="lg:text-[18px] lg:w-[1152px] lg:h-[54px] w-[362px] h-[81px]   text-center leading-[27px] lg:px-4 px-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
            Suspendisse varius enim in eros elementum tristique. 
           </p>
         
       </div>
-      <div className="w-[1256px] h-[96px] flex flex-row justify-center gap-[24px] items-center my-16">
-        <div className="flex flex-col text-center  w-[296px] h-[80px] gap-[8px]">
+      <div className="lg:w-[1256px] lg:h-[96px] w-[380px] h-[176px] flex lg:flex-row flex-row justify-center gap-[24px] items-center my-16">
+        <div className="flex flex-col text-center  lg:w-[296px] lg:h-[80px] w-[182px] h-[60px] gap-[8px]">
           <p className="text-[40px] font-bold leading-[48px]">+200</p>
           <p className="text-[16px]  leading-[24px]">Courses</p>
         </div>
@@ -48,7 +48,7 @@ const Achievements = () => {
           </p>
         
       </div>
-      <div className="w-[1256px] h-[96px] flex flex-row justify-center gap-[24px] items-center my-16">
+      <div className="w-[1256px] h-[96px] grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1  justify-center gap-[24px] items-center my-16">
         <div className="flex flex-col text-center  w-[296px] h-[80px] gap-[8px]">
           <p className="text-[40px] font-bold leading-[48px]">+200</p>
           <p className="text-[16px]  leading-[24px]">Courses</p>
