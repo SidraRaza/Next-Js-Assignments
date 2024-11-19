@@ -3,7 +3,7 @@ import React from "react";
 const Achievements = () => {
   return (
     <>
-    <div className="lg:w-[1280px] lg:h-[488px] lg:py-[112px] py-[48px]w-[428px] h-[451px] ">
+    <div className="lg:w-[1280px] lg:h-[488px] lg:py-12 py-[48px]w-[428px] h-[451px] ">
       
         <div className="lg:w-[1152px] lg:h-[136px] mx-auto w-[380px] h-[355px] p-[24px]">
           <h1 className="lg:text-[48px]  lg:w-[1152px] lg:h-[58px] text-[32px] w-[380px] h-[42px]  font-semibold text-center lg:leading-[57.6px] leading-[41.6px] my-6">

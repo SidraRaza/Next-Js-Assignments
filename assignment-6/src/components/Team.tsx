@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <div className="lg:w-[1280px] lg:h-[1049px] w-[428px] h-[862px] lg:py-[112px] py-[48px]">
+    <div className="lg:w-[1280px] lg:h-[1049px] w-[428px] h-[862px] lg:py-12 py-[48px]">
       <div className="lg:w-[768px] lg:h-[109px] w-[385px] h-[162px] sm:gap-[357px]  lg:mt-[100px] mt-[60px] lg:mb-[80px] mb-[40px] mx-auto">
         <h1 className=" lg:w-[768px] lg:h-[58px] w-[385px] h-[84px] font-bold lg:text-[48px] text-[32px]  lg:leading-[57.6px] leading-[41.6px] text-center  mx-auto">
           Explore Courses By Category
@@ -13,60 +13,59 @@ const Team = () => {
           taught by expert instructors.
         </p>
       </div>
-      <div className="lg:w-[1280px] lg:h-[636px] w-[380px] h-[556px]">
-        <div className="lg:w-[1280px] lg:h-[132px]  flex lg:flex-cols-3  flex-col-1 gap-[24px] mx-auto">
-          <div className="w-[410.67px] h-[132px]  bg-[#F7F7F7] rounded-[5px]  flex lg:flex-col-1 justify-center items-center">
-            <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
+      <div className="lg:w-[1280px] lg:h-[636px] w-[380px] h-[556px] mx-auto">
+      <div className="lg:w-[1280px] lg:h-[132px] w-[380px] h-auto flex lg:flex-row flex-col gap-[24px] mx-auto">
+  {/* Box 1 */}
+  <div className="lg:w-[410.67px] lg:h-[132px] w-[380px] h-[132px] bg-[#F7F7F7] rounded-[5px] flex lg:flex-row flex-col-1 space-x-4 justify-center items-center p-4 mx-auto">
+    {/* Logo Section */}
+    <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
               <Image src="/pen-tool-2.svg" alt="Logo" width={32} height={32} />
             </div>
-            <div className="flex flex-col ml-[24px]">
-              <h1 className="font-semibold text-[20px] leading-[30px] w-[246.67px] h-[30px]">
-                Design & Development
-              </h1>
-              <p className=" w-[246.67px] h-[27px] text-[18px] leading-[27px]">
-                50+ Courses Available
-              </p>
-            </div>
-          </div>
-          <div className="w-[410.67px] h-[132px] bg-[#F7F7F7] rounded-[5px]  flex justify-center items-center">
-            <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
-              <Image
-                src="/volume-high.svg"
-                alt="Logo"
-                width={32}
-                height={32}
-                className="w-[32px] h-[32px]"
-              />
-            </div>
-            <div className="flex flex-col ml-[24px]">
-              <h1 className="font-semibold text-[20px] leading-[30px] w-[246.67px] h-[30px]">
-                Marketing
-              </h1>
-              <p className=" w-[246.67px] h-[27px] text-[18px] leading-[27px]">
-                50+ Courses Available
-              </p>
-            </div>
-          </div>
-          <div className="w-[410.67px] h-[132px] bg-[#F7F7F7] rounded-[5px]  flex  justify-center items-center">
-            <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
-              <Image
-                src="/group.svg"
-                alt="Logo"
-                width={32}
-                height={32}
-                className="w-[32px] h-[32px]"
-              />
-            </div>
-            <div className="flex flex-col ml-[24px]">
-              <h1 className="font-semibold text-[20px] leading-[30px] w-[246.67px] h-[30px]">
-                Development
-              </h1>
-              <p className=" w-[246.67px] h-[27px] text-[18px] leading-[27px]">
-                50+ Courses Available
-              </p>
-            </div>
-          </div>
+    {/* Text Section */}
+    <div className="flex flex-col  lg:mt-0">
+      <h1 className="font-semibold text-[20px] leading-[30px] lg:w-[246.67px] lg:h-[30px] w-auto h-auto">
+        Design & Development
+      </h1>
+      <p className="text-[18px] leading-[27px] lg:w-[246.67px] lg:h-[27px] w-auto h-auto">
+        50+ Courses Available
+      </p>
+    </div>
+  </div>
+
+
+  <div className="lg:w-[410.67px] lg:h-[132px] w-[380px] h-[132px] bg-[#F7F7F7] rounded-[5px] flex lg:flex-row flex-col-1 space-x-4 justify-center items-center p-4 mx-auto">
+    {/* Logo Section */}
+    <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
+      <Image src="/volume-high.svg" alt="Logo" width={32} height={32} />
+    </div>
+    {/* Text Section */}
+    <div className="flex flex-col  lg:mt-0">
+      <h1 className="font-semibold text-[20px] leading-[30px] lg:w-[246.67px] lg:h-[30px] w-auto h-auto">
+        Design & Development
+      </h1>
+      <p className="text-[18px] leading-[27px] lg:w-[246.67px] lg:h-[27px] w-auto h-auto">
+        50+ Courses Available
+      </p>
+    </div>
+  </div>
+
+  <div className="lg:w-[410.67px] lg:h-[132px] w-[380px] h-[132px] bg-[#F7F7F7] rounded-[5px] flex lg:flex-row flex-col-1 space-x-4 justify-center items-center p-4 mx-auto">
+    {/* Logo Section */}
+    <div className="w-[100px] h-[100px]  rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
+      <Image src="/group.svg" alt="Logo" width={32} height={32} />
+    </div>
+    {/* Text Section */}
+    <div className="flex flex-col pr-5 lg:pr-0 lg:mt-0">
+      <h1 className="font-semibold text-[20px] leading-[30px] lg:w-[246.67px] lg:h-[30px] w-auto h-auto">
+       Development
+      </h1>
+      <p className="text-[18px] leading-[27px] lg:w-[246.67px] lg:h-[27px] w-auto h-auto">
+        50+ Courses Available
+      </p>
+    </div>
+  </div>
         </div>
+        <div className="hidden sm:block">
         <div className="w-[1280px] h-[132px] flex lg:flex-cols-3 flex-col-1 gap-[24px] mt-[44px] ">
           <div className="w-[410.67px] h-[132px] bg-[#F7F7F7] rounded-[5px]  flex lg:flex-col-1 justify-center items-center">
             <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
@@ -81,7 +80,7 @@ const Team = () => {
               </p>
             </div>
           </div>
-          <div className="w-[410.67px] h-[132px] bg-[#F7F7F7] rounded-[5px]  flex justify-center items-center">
+          <div className="w-[410.67px] h-[132px] bg-[#F7F7F7] rounded-[5px]  flex justify-center  items-center">
             <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
               <Image
                 src="/link.svg"
@@ -100,7 +99,7 @@ const Team = () => {
               </p>
             </div>
           </div>
-          <div className="w-[410.67px] h-[132px] bg-[#F7F7F7] rounded-[5px]  flex  justify-center items-center">
+          <div className="w-[410.67px] h-[132px] bg-[#F7F7F7] rounded-[5px]  flex  justify-center  items-center">
             <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
               <Image
                 src="/arrow-2.svg"
@@ -121,7 +120,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="w-[1280px] h-[132px] flex lg:flex-cols-3 flex-col-1 gap-[24px] mt-[44px] ">
+        <div className="w-[1280px] h-[132px] flex lg:flex-cols-3 flex-col-1 gap-[24px] mt-[44px]  ">
           <div className="w-[410.67px] h-[132px] bg-[#F7F7F7] rounded-[5px]  flex lg:grid-col justify-center items-center">
             <div className="w-[100px] h-[100px] rounded-[5px] p-[34px] gap-[10px] justify-center items-center flex bg-[#FFFFFF]">
               <Image src="/briefcase.svg" alt="Logo" width={32} height={32} />
@@ -172,6 +171,7 @@ const Team = () => {
                 50+ Courses Available
               </p>
             </div>
+          </div>
           </div>
         </div>
         <div className=" w-[155px] h-[48px] rounded-[5px] border-[1px] py-[10px] border-[#000000] px-[24px] mx-auto mt-16">
