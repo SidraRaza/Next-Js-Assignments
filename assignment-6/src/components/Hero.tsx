@@ -15,9 +15,9 @@ const Hero = () => {
             taught by expert instructors.
           </p>
           <div className=" h-[64px] mt-[16px] gap-[16px] sm:flex-col-1  flex space-x-1 lg:mr-[150px] mr-6">
-            <button className="w-[180px]  gap-[8px] h-[48px] text-[16px] rounded-[5px] border-[1px] py-[12px]
+            <button className="w-[180px]  lg:gap-[8px] gap-[4px] h-[48px] text-[16px] rounded-[5px] border-[1px] py-[12px]
              px-[24px] bg-black text-white leading-[24px] ">Start learning now</button>
-             <button className="w-[168px]  gap-[8px] h-[48px] text-[16px] rounded-[5px] border-[1px] py-[12px]
+             <button className="w-[168px]  lg:gap-[8px] gap-[4px] h-[48px] text-[16px] rounded-[5px] border-[1px] py-[12px]
              px-[24px]  text-black leading-[24px] ">Explore Courses</button>
           </div>
         </div>
