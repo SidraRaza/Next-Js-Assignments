@@ -14,7 +14,7 @@ const Hero = () => {
             Discover a wide range of courses covering a variety of <br className="hidden lg:block" /> subjects,
             taught by expert instructors.
           </p>
-          <div className="lg:w-[358px]  h-[64px] mt-[16px] gap-[16px] sm:flex-col-1  flex space-x-1 lg:mr-[150px] mr-6">
+          <div className="w-[358px]  h-[64px] mt-[16px] gap-[16px] sm:flex-col-1  flex space-x-1 lg:mr-[150px] mr-6">
             <button className="w-[178px]  gap-[8px] h-[48px] text-[16px] rounded-[5px] border-[1px] py-[12px]
              px-[24px] bg-black text-white leading-[24px] ">Start learning now</button>
              <button className="w-[164px]  gap-[8px] h-[48px] text-[16px] rounded-[5px] border-[1px] py-[12px]

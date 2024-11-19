@@ -15,8 +15,8 @@ const Achievements = () => {
           </p>
         
       </div>
-      <div className="lg:w-[1256px] lg:h-[96px] w-[380px] h-[176px] flex lg:flex-row flex-row justify-center gap-[24px] items-center my-16">
-        <div className="flex flex-col text-center  lg:w-[296px] lg:h-[80px] w-[182px] h-[60px] gap-[8px]">
+      <div className="lg:w-[1256px] lg:h-[96px] w-[380px] h-[76px] flex lg:flex-row flex-row justify-center gap-[24px] items-center my-16">
+        <div className="flex flex-col text-center  lg:w-[296px] lg:h-[80px] w-[182px] gap-[8px]">
           <p className="text-[40px] font-bold leading-[48px]">+200</p>
           <p className="text-[16px]  leading-[24px]">Courses</p>
         </div>
@@ -48,7 +48,7 @@ const Achievements = () => {
           </p>
         
       </div>
-      <div className="w-[1256px] h-[96px] grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1  justify-center gap-[24px] items-center my-16">
+      <div className="w-[1256px] h-[96px] flex flex-row justify-center gap-[24px] items-center my-16">
         <div className="flex flex-col text-center  w-[296px] h-[80px] gap-[8px]">
           <p className="text-[40px] font-bold leading-[48px]">+200</p>
           <p className="text-[16px]  leading-[24px]">Courses</p>

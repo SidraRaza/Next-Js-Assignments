@@ -15,7 +15,7 @@ const page = () => {
       <Logo/>
       <Team/>
       <Achievements/>
-      <HeroTest/>
+      {/* <HeroTest/> */}
     </div>
   )
 }
