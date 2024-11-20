@@ -1,74 +1,132 @@
 import React from "react";
 
-const Achievements = () => {
-  return (
-    <>
-    <div className="lg:w-[1280px] lg:h-[488px] lg:py-12 py-[48px]w-[428px] h-[451px] ">
-      
-        <div className="lg:w-[1152px] lg:h-[136px] mx-auto w-[380px] h-[355px] p-[24px]">
-          <h1 className="lg:text-[48px]  lg:w-[1152px] lg:h-[58px] text-[32px] w-[380px] h-[42px]  font-semibold text-center lg:leading-[57.6px] leading-[41.6px] my-6">
-            Our Achivements
-          </h1>
-          <p className="lg:text-[18px] lg:w-[1152px] lg:h-[54px] w-[362px] h-[81px]   text-center leading-[27px] lg:px-4 px-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-           Suspendisse varius enim in eros elementum tristique. 
-          </p>
-        
-      </div>
-      <div className="lg:w-[1256px] lg:h-[96px] w-[380px] h-[76px] flex lg:flex-row flex-row justify-center gap-[24px] items-center my-16">
-        <div className="flex flex-col text-center  lg:w-[296px] lg:h-[80px] w-[182px] gap-[8px]">
-          <p className="text-[40px] font-bold leading-[48px]">+200</p>
-          <p className="text-[16px]  leading-[24px]">Courses</p>
-        </div>
-         <div className="flex flex-col text-center w-[296px]  h-[80px] gap-[8px]">
-          <p className="text-[40px] font-bold leading-[48px]">50K</p>
-          <p className="text-[16px]  leading-[24px]">Mentors</p>
-        </div>
-         <div className="flex flex-col text-center w-[296px]   h-[80px] gap-[8px]">
-          <p className="text-[40px] font-bold leading-[48px]">370K</p>
-          <p className="text-[16px]  leading-[24px]">Students</p>
-        </div>
-         <div className="flex flex-col text-center w-[296px]  h-[80px] gap-[8px]">
-          <p className="text-[40px] font-bold leading-[48px]">100+</p>
-          <p className="text-[16px]  leading-[24px]">Recognition</p>
-        </div>
-      </div>
-    </div>
-      <div className="w-[1280px] h-[488px] py-[112px] ">
-      
-        <div className="w-[1152px] h-[136px] mx-auto">
-          <h1 className="text-[48px] w-[1152px] h-[58px] font-semibold text-center leading-[57.6px] my-6">
-            Our Achivements
-          </h1>
-          <p className="text-[18px] w-[1152px] h-[54px]  text-center leading-[27px] px-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat.
-          </p>
-        
-      </div>
-      <div className="w-[1256px] h-[96px] flex flex-row justify-center gap-[24px] items-center my-16">
-        <div className="flex flex-col text-center  w-[296px] h-[80px] gap-[8px]">
-          <p className="text-[40px] font-bold leading-[48px]">+200</p>
-          <p className="text-[16px]  leading-[24px]">Courses</p>
-        </div>
-         <div className="flex flex-col text-center w-[296px]  h-[80px] gap-[8px]">
-          <p className="text-[40px] font-bold leading-[48px]">50K</p>
-          <p className="text-[16px]  leading-[24px]">Mentors</p>
-        </div>
-         <div className="flex flex-col text-center w-[296px]   h-[80px] gap-[8px]">
-          <p className="text-[40px] font-bold leading-[48px]">370K</p>
-          <p className="text-[16px]  leading-[24px]">Students</p>
-        </div>
-         <div className="flex flex-col text-center w-[296px]  h-[80px] gap-[8px]">
-          <p className="text-[40px] font-bold leading-[48px]">100+</p>
-          <p className="text-[16px]  leading-[24px]">Recognition</p>
-        </div>
-      </div>
-    </div>
-    </>
-  );
+const Achivements = () => {
+    return (
+        <>
+            <div className="lg:w-[1280px] w-[428px] h-[451px] py-[48px] px-[24px] gap-[48px] bg-white lg:h-[488px] lg:py-[112px] lg:px-[64px] lg:gap-[80px] flex flex-col items-center justify-center">
+                <div className="lg:w-[1152px] lg:h-[264px] w-[380px] h-[355px] flex items-center justify-center gap-[24px]">
+                    <div className="lg:w-[1152px] lg:h-[264px] w-[380px] h-[355px] flex flex-col items-center justify-center gap-[32px]">
+                        <div className="lg:w-[1152px] lg:h-[136px] w-[380px] h-[147px] flex flex-col items-center justify-center gap-[16px]">
+                            <div className="lg:w-[1152px] lg:h-[136px] w-[380px] h-[147px] flex flex-col items-center justify-center gap-[24px]">
+                                <h1 className="lg:w-[1152px] lg:h-[58px] w-[380px] h-[42px] text-[32px] font-bold lg:text-[48px] text-black text-center">
+                                    Our Achivements
+                                </h1>
+                                <p className="lg:w-[1152px] lg:h-[54px] w-[362px] hidden lg:flex h-[81px] text-[18px] text-black text-center">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique. Duis
+                                    cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                                    commodo diam libero vitae erat.
+                                </p>
+                                <p className="lg:w-[1152px] lg:h-[54px] w-[362px] flex lg:hidden h-[81px] text-[18px] text-black text-center">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="lg:w-[1156px] lg:h-[96px] w-[380px] h-[176px] flex flex-col lg:flex-row  items-center justify-between gap-[24px]">
+                            <div className="lg:w-[616px] lg:h-[96px] h-[76px] lg-[8px] gap-[16px] flex flex-row  justify-between lg:gap-[24px]">
+                                <div className="lg:w-[296px] lg-h-[80px] w-[182px] h-[60px]  gap-[8px] flex flex-col items-center justify-center ">
+                                    <h1 className="lg:w-[91px] lg:h-[48px] w-[46px] h-[28px] text-[20px] text-black text-center font-bold lg:text-[40px] ">
+                                        +200
+                                    </h1>
+                                    <p className="w-[59px] h-[24px]  text-[16px] text-black">
+                                        Courses
+                                    </p>
+                                </div>
+                                <div className="lg:w-[296px] lg-h-[80px] w-[182px] h-[60px]  gap-[8px] flex flex-col items-center justify-center ">
+                                    <h1 className="lg:w-[91px] lg:h-[48px] w-[46px] h-[28px] text-[20px] text-black text-center font-bold lg:text-[40px] ">
+                                        50K
+                                    </h1>
+                                    <p className="w-[59px] h-[24px]  text-[16px] text-black">
+                                        Mentors
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="lg:w-[616px] lg:h-[96px] h-[76px] lg-[8px] gap-[16px] flex flex-row  justify-between lg:gap-[24px]">
+                                <div className="lg:w-[296px] lg-h-[80px] w-[182px] h-[60px]  gap-[8px] flex flex-col items-center justify-center ">
+                                    <h1 className="lg:w-[91px] lg:h-[48px] w-[46px] h-[28px] text-[20px] text-black text-center font-bold lg:text-[40px] ">
+                                        370k
+                                    </h1>
+                                    <p className="w-[59px] h-[24px]  text-[16px] text-black">
+                                        Students
+                                    </p>
+                                </div>
+                                <div className="lg:w-[296px] lg-h-[80px] w-[182px] h-[60px]  gap-[8px] flex flex-col items-center justify-center ">
+                                    <h1 className="lg:w-[91px] lg:h-[48px] w-[46px] h-[28px] text-[20px] text-black text-center font-bold lg:text-[40px] ">
+                                        100+
+                                    </h1>
+                                    <p className="w-[59px] h-[24px]  text-[16px] text-black">
+                                        Recognition
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="lg:w-[1280px] w-[428px] h-[451px] hidden  py-[48px] px-[24px] gap-[48px] bg-white lg:h-[488px] lg:py-[112px] lg:px-[64px] lg:gap-[80px] lg:flex flex-col items-center justify-center">
+                <div className="lg:w-[1152px] lg:h-[264px] w-[380px] h-[355px] flex items-center justify-center gap-[24px]">
+                    <div className="lg:w-[1152px] lg:h-[264px] w-[380px] h-[355px] flex flex-col items-center justify-center gap-[32px]">
+                        <div className="lg:w-[1152px] lg:h-[136px] w-[380px] h-[147px] flex flex-col items-center justify-center gap-[16px]">
+                            <div className="lg:w-[1152px] lg:h-[136px] w-[380px] h-[147px] flex flex-col items-center justify-center gap-[24px]">
+                                <h1 className="lg:w-[1152px] lg:h-[58px] w-[380px] h-[42px] text-[32px] font-bold lg:text-[48px] text-black text-center">
+                                    Our Achivements
+                                </h1>
+                                <p className="lg:w-[1152px] lg:h-[54px] w-[362px] hidden lg:flex h-[81px] text-[18px] text-black text-center">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique. Duis
+                                    cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                                    commodo diam libero vitae erat.
+                                </p>
+                                <p className="lg:w-[1152px] lg:h-[54px] w-[362px] flex lg:hidden h-[81px] text-[18px] text-black text-center">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="lg:w-[1156px] lg:h-[96px] w-[380px] h-[176px] flex flex-col lg:flex-row  items-center justify-between gap-[24px]">
+                            <div className="lg:w-[616px] lg:h-[96px] h-[76px] lg-[8px] gap-[16px] flex flex-row  justify-between lg:gap-[24px]">
+                                <div className="lg:w-[296px] lg-h-[80px] w-[182px] h-[60px]  gap-[8px] flex flex-col items-center justify-center ">
+                                    <h1 className="lg:w-[91px] lg:h-[48px] w-[46px] h-[28px] text-[20px] text-black text-center font-bold lg:text-[40px] ">
+                                        +200
+                                    </h1>
+                                    <p className="w-[59px] h-[24px]  text-[16px] text-black">
+                                        Courses
+                                    </p>
+                                </div>
+                                <div className="lg:w-[296px] lg-h-[80px] w-[182px] h-[60px]  gap-[8px] flex flex-col items-center justify-center ">
+                                    <h1 className="lg:w-[91px] lg:h-[48px] w-[46px] h-[28px] text-[20px] text-black text-center font-bold lg:text-[40px] ">
+                                        50K
+                                    </h1>
+                                    <p className="w-[59px] h-[24px]  text-[16px] text-black">
+                                        Mentors
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="lg:w-[616px] lg:h-[96px] h-[76px] lg-[8px] gap-[16px] flex flex-row  justify-between lg:gap-[24px]">
+                                <div className="lg:w-[296px] lg-h-[80px] w-[182px] h-[60px]  gap-[8px] flex flex-col items-center justify-center ">
+                                    <h1 className="lg:w-[91px] lg:h-[48px] w-[46px] h-[28px] text-[20px] text-black text-center font-bold lg:text-[40px] ">
+                                        370k
+                                    </h1>
+                                    <p className="w-[59px] h-[24px]  text-[16px] text-black">
+                                        Students
+                                    </p>
+                                </div>
+                                <div className="lg:w-[296px] lg-h-[80px] w-[182px] h-[60px]  gap-[8px] flex flex-col items-center justify-center ">
+                                    <h1 className="lg:w-[91px] lg:h-[48px] w-[46px] h-[28px] text-[20px] text-black text-center font-bold lg:text-[40px] ">
+                                        100+
+                                    </h1>
+                                    <p className="w-[59px] h-[24px]  text-[16px] text-black">
+                                        Recognition
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
 };
 
-export default Achievements;
+export default Achivements;
