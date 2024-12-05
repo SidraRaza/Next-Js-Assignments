@@ -18,6 +18,7 @@ const page = () => {
       <Blog/>
       <Customer/>
       <Testimonial/>
+     
     </div>
   )
 }
