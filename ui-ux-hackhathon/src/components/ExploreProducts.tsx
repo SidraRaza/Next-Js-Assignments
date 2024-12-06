@@ -14,7 +14,7 @@ const ExploreProducts = () => {
         <div className="w-[398px] h-[108px] flex flex-col   gap-[20px]">
           <div className="w-[142px] h-[40px] flex flex-row items-center gap-2">
             <Image src="/1.svg" alt="logo" width={20} height={40} />
-            <h1 className="text-[16px] font-semibold">Our Products</h1>
+            <h1 className="text-[16px] font-semibold text-[#DB4444]">Our Products</h1>
           </div>
           <h1 className={`${inter.className} text-[36px] font-semibold`}>
             Explore Our Products
