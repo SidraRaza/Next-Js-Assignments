@@ -22,15 +22,13 @@ const page = () => {
           <h1
             className={`${inter.className} text-[36px] font-medium items-start  leading-[30px]`}
           >
-           Log in to Exclusive
+            Log in to Exclusive
           </h1>
           <h1 className="text-[16px] leading-[24px]">
-          Enter your details below
+            Enter your details below
           </h1>
 
           <div className="flex flex-col gap-[40px] w-[370px] h-[104px] ">
-           
-
             <Input
               placeholder="Email or Phone Number"
               className="border-b-2 border-black text-black opacity-40 w-[370px] h-[32px]"
@@ -40,12 +38,16 @@ const page = () => {
               className="border-b-2 border-black text-black opacity-40 w-[370px] h-[32px]"
             />
           </div>
-         <div className="flex justify-between items-center w-[371px] h-[56px]  gap-[87px]">
-            <div className="w-[143px] h-[56px] flex justify-center items-center gap-[10px] py-[16px] px-[48px] bg-[#DB4444] rounded-[4px] "></div>
-            <button className="w-[47px] h-[24px] 
-            font-medium text-[16px]  ">Login In</button>
-         </div>
-        
+          <div className="flex   w-[371px] h-[56px] justify-center items-center  gap-[87px]">
+            <Link
+              href="#"
+              className="w-[143px] h-[56px] flex felx-cols-1 justify-center items-center gap-[16px] py-[16px] px-[48px] bg-[#DB4444] rounded-[4px]  
+            font-medium text-[16px] text-[#FAFAFA] "
+            >
+              Log In
+            </Link>
+            <h1 className="text-[16px] leading-[24px] text-[#DB4444] ">Forgot Password?</h1>
+          </div>
         </div>
       </div>
     </>

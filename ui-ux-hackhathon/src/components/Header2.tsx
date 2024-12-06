@@ -4,23 +4,29 @@ import Image from 'next/image'
 
 const Header2 = () => {
   return (
-    <div className='w-[1170px] h-[38px] flex justify-center items-center gap-[130px] mt-[40px] my-[30] mx-auto'>
-        <div className='font-bold text-[24px] leading-[24px]'>Exclusive</div>
+    <div className='border-b border-[#C4C4C4] pb-6 h-[50px]  mx-auto mt-[40px] mb-12'>
+    <div className=' w-[1170px] h-[38px] mx-auto '>
+    <div className='w-[1170px] h-[38px] flex justify-center items-center gap-[160px]  mx-auto'>
+        <div className='font-bold text-[24px] leading-[24px] ml-[-19px]'>Exclusive</div>
         <div className='w-[367px] h-[24px] flex gap-[48px]'>
             <Link href='#' className='text-[16px] leading-[24px]'>Home</Link>
             <Link href='#' className='text-[16px] leading-[24px]'>Contact</Link>
             <Link href='#' className='text-[16px] leading-[24px]'>About</Link>
             <Link href='#' className='text-[16px] leading-[24px]'>Sign Up</Link>
         </div>
-        <div className='w-[347px] h-[38px] flex gap-[24px]'>
+      <div className='flex gap-[24px] w-[395] h-[38px]'>
+      <div className='w-[347px] h-[38px] flex gap-[10px]'>
             <Image src='/Search.svg' alt='logo' width={243} height={38}/>
-           <div className='w-[128px] h-[32px] flex gap-[16px] '>
+           <div className='w-[128px] h-[32px] flex gap-[10px] '>
          <Image src='/Wishlist2.svg' alt='logo' width={32} height={32}/>
-         <Image src='/cart6.svg' alt='logo' width={32} height={32}/>
-           <Image src='/user.svg' alt='logo' width={32} height={32}/>
+         <Image src='/cart7.svg' alt='logo' width={32} height={32}/>
+           <Image src='/user1.svg' alt='logo' width={32} height={32}/>
            </div>
 
         </div>
+      </div>
+    </div>
+    </div>
     </div>
   )
 }
