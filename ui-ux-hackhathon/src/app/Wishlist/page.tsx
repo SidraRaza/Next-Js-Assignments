@@ -52,7 +52,7 @@ const page = () => {
                     className="mx-auto"
                   />
                             <Link
-                  href="#"
+                  href="/cart"
                   className="w-[270px] flex justify-center mt-7 gap-[8px] items-center h-[41px] bg-black text-white "
                 >
                   <Image
@@ -98,7 +98,7 @@ const page = () => {
                     className="mx-auto mt-[43px]"
                   />
                             <Link
-                  href="#"
+                  href="/cart"
                   className="w-[270px]  flex justify-center mt-6 gap-[8px] items-center h-[41px] bg-black text-white "
                 >
                   <Image
@@ -144,7 +144,7 @@ const page = () => {
                     className="mx-auto"
                   />
                             <Link
-                  href="#"
+                  href="/cart"
                   className="w-[270px] flex justify-center mt-4 gap-[8px] items-center h-[41px] bg-black text-white "
                 >
                   <Image
@@ -190,7 +190,7 @@ const page = () => {
                     className="mx-auto"
                   />
                             <Link
-                  href="#"
+                  href="/cart"
                   className="w-[270px] flex justify-center mt-5  gap-[8px] items-center h-[41px] bg-black text-white "
                 >
                   <Image
@@ -261,7 +261,7 @@ const page = () => {
                     className="mx-auto"
                   />
                             <Link
-                  href="#"
+                  href="/cart"
                   className="w-[270px] flex justify-center mt-2  gap-[8px] items-center h-[41px] bg-black text-white "
                 >
                   <Image
@@ -307,7 +307,7 @@ const page = () => {
                     className="mx-auto mt-[30px]"
                   />
                             <Link
-                  href="#"
+                  href="/cart"
                   className="w-[270px] flex justify-center mt-6  gap-[8px] items-center h-[41px] bg-black text-white "
                 >
                   <Image
@@ -355,7 +355,7 @@ const page = () => {
                     className="mx-auto mt-[10px]"
                   />
                             <Link
-                  href="#"
+                  href="/cart"
                   className="w-[270px] flex justify-center mt-3  gap-[8px] items-center h-[41px] bg-black text-white "
                 >
                   <Image
@@ -401,7 +401,7 @@ const page = () => {
                     className="mx-auto mt-[45px]"
                   />
                             <Link
-                  href="#"
+                  href="/cart"
                   className="w-[270px] flex justify-center mt-7  gap-[8px] items-center h-[41px] bg-black text-white "
                 >
                   <Image

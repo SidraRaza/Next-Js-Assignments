@@ -28,33 +28,36 @@ const page = () => {
             Enter your details below
           </h1>
 
-          <div className="flex flex-col gap-[40px] w-[370px] h-[176px] ">
+          <div className="flex flex-col gap-[40px] w-[370px] text-black h-[176px] ">
             <Input
               placeholder="Name"
+              required
               className="border-b-2 border-black text-black opacity-40 w-[370px] h-[32px]"
             />
 
             <Input
               placeholder="Email or Phone Number"
+              required
               className="border-b-2 border-black text-black opacity-40 w-[370px] h-[32px]"
             />
             <Input
               placeholder="Password"
+              required
               className="border-b-2 border-black text-black opacity-40 w-[370px] h-[32px]"
             />
           </div>
           <div className="w-[371px] h-[188px] flex flex-col justify-center items-center gap-[16px]">
-          <button className="w-[371px] h-[56px] gap-[10px] rounded-[4px] flex py-[16px] px-[122px] text-[16px]
+          <Link href={'/login'}><button className="w-[371px] h-[56px] gap-[10px] rounded-[4px] flex py-[16px] px-[122px] text-[16px]
           font-medium leading-[24px] text-[#FAFAFA] bg-[#DB4444]">
             Create Account
-          </button>
+          </button></Link>
           <div className="w-[371px] h-[56px] rounded-[4px] border border-black py-[16px] px-[86px] flex gap-[10px]">
             <Image src="/Icon-Google.svg" alt="logo" width={24} height={24} />
             <h1 className="text-[16px] leading-[24px]">Sign up with Google</h1>
           </div>
           <div className="w-[248px] h-[28px] flex justify-center   gap-[16px] mt-3">
             <h1 className="text-[16px] leading-[24px] text-center">Already have account?</h1>
-            <Link href="#" className="text-[16px] leading-[24px] font-medium">Log in</Link>
+            <Link href="/login" className="text-[16px] leading-[24px] font-medium">Log in</Link>
           </div>
           </div>
         

@@ -40,7 +40,7 @@ const page = () => {
           </div>
           <div className="flex   w-[371px] h-[56px] justify-center items-center  gap-[87px]">
             <Link
-              href="#"
+              href="/dropAccount"
               className="w-[143px] h-[56px] flex felx-cols-1 justify-center items-center gap-[16px] py-[16px] px-[48px] bg-[#DB4444] rounded-[4px]  
             font-medium text-[16px] text-[#FAFAFA] "
             >
