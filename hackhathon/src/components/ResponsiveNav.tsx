@@ -27,9 +27,9 @@ const ResponsiveNav = () => {
      
           <div className='w-[123px] h-[270px] flex flex-col gap-[24px] justify-center items-center'>
             <Link href='/' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Home</Link>
-            <Link href='/' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Product</Link>
-            <Link href='/' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Pricing</Link>
-            <Link href='/' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Contact</Link>
+            <Link href='/ProductList' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Product</Link>
+            <Link href='/team' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Pricing</Link>
+            <Link href='/contact' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Contact</Link>
    </div>
       </SheetDescription>
     </SheetHeader>

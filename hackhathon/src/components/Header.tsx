@@ -18,7 +18,7 @@ const Header = () => {
           <Image src='/arrow.svg' alt='arrow' width={5.71} height={10} className='w-[5.71px] h-[10px]'/>
           </div>
           <Link href='/about' className='text-[14px] leading-[24px] font-bold text-[#737373]'>About</Link>
-          <Link href='#' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Blog</Link>
+          <Link href='/team' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Blog</Link>
           <Link href='/contact' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Contact</Link>
           <Link href='#' className='text-[14px] leading-[24px] font-bold text-[#737373]'>Pages</Link>
         </div>
