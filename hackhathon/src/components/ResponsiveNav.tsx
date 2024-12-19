@@ -12,8 +12,8 @@ import {
 
 const ResponsiveNav = () => {
   return (
-    <div className='w-[414px] h-[58px] mx-[14px]  md:hidden block'>
-        <div className='w-[349px] h-[58px] flex items-center justify-between'>
+    <div className='w-[414px] h-[58px]   md:hidden block'>
+        <div className='w-[349px] h-[58px] flex items-center justify-between mx-auto'>
             <h1 className='text-[24px] leading-[32px] font-bold'>Bandage</h1>
           <div className='h-[24px] flex justify-center items-center gap-[32px]'>
           <Image src={'/s4.svg'} alt="close" width={24} height={24} className='w-[24px] h-[24px] text-black'/>
