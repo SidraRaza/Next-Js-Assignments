@@ -1,41 +1,50 @@
-import Image from 'next/image'
-import { it } from 'node:test'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
-
-interface Product{
+interface Product {
     id: number,
-    name: "string",
-    species: "string",
-    family: "string",
-    habitat: "string",
-    place_of_found: "string",
-    diet: "string",
+    title: "string",
+    price: number,
     description: "string",
-    weight_kg?: number,
-    height_cm?: number,
+    category: "string",
     image: "string",
-}
-const Products =async () => {
-    const res=await fetch("https://freetestapi.com/api/v1/animals")
-    const data:Product[]=await res.json()
-  return (
-   <div>
-{data.map((item,index)=>(
-    <div key={index}>
-     <p>{item.id}</p>
-     <p>{item.name}</p> 
-     <p>{item.species}</p>
-     <p>{item.family}</p>
-     <p>{item.habitat}</p>
-     <p>{item.place_of_found}</p>
-     <p>{item.diet}</p>
-     <p>{item.description}</p>
-     <Image src={item.image} alt={item.name} width={200} height={200}/>
-    </div>
-))}
-   </div>
-  )   
+    rating: {
+        rate: number,
+        count: number
+    }
 }
 
-export default Products
+const Products = async () => {
+  const res = await fetch('https://fakestoreapi.com/products');
+  if (!res.ok) {
+    console.error('Failed to fetch data');
+    return <div>Error loading products</div>;
+  }
+
+  const data: Product[] = await res.json();
+ 
+  return (
+    <div>
+      {data.map((item) => (
+        <div key={item.id}>
+          <p>{item.id}</p>
+          <p>{item.title}</p>
+          <p>{item.price}</p>
+          <p>{item.description}</p>
+          <p>{item.category}</p>
+          <Image
+            src={item.image || '/fallback-image.jpg'}
+            alt={item.title}
+            width={200}
+            height={200}
+          />
+          <p>{item.rating.rate}</p>
+          <p>{item.rating.count}</p>
+        
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Products;
