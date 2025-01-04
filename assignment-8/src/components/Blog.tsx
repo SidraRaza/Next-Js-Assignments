@@ -1,9 +1,9 @@
-'use client';
+"use client";
 import Link from "next/link";
 import Image from "next/image";
-import {Client } from "../sanity/lib/client";
+import { Client } from "../sanity/lib/client";
 import imageUrlBuilder from "@sanity/image-url";
-import { fetchProducts } from "../sanity/lib/client";
+
 import { useEffect, useState } from "react";
 
 const builder = imageUrlBuilder(Client);
@@ -22,6 +22,12 @@ interface Product {
   sergy: string;
   ceo: string;
 }
+
+export const fetchProducts = async () => {
+  const query = `*[_type == "product"]`;
+  const products = await Client.fetch(query);
+  return products;
+};
 
 const Blog = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -44,7 +50,9 @@ const Blog = () => {
             className="bg-white rounded-lg shadow-lg flex flex-col items-center transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl"
           >
             <Image
-              src={product?.image ? urlFor(product.image).url() : "/no-image.jpg"}
+              src={
+                product?.image ? urlFor(product.image).url() : "/no-image.jpg"
+              }
               alt={product?.name || "Default Image"}
               width={350}
               height={200}
@@ -70,8 +78,12 @@ const Blog = () => {
                 className="rounded-full"
               />
               <div className="flex flex-col ml-3 hover:text-blue-600 transition-colors duration-200">
-                <h1 className="text-black font-bold">{product.sergy || "Unknown Author"}</h1>
-                <h1 className="text-gray-400 text-sm">{product.ceo || "Role not specified"}</h1>
+                <h1 className="text-black font-bold">
+                  {product.sergy || "Unknown Author"}
+                </h1>
+                <h1 className="text-gray-400 text-sm">
+                  {product.ceo || "Role not specified"}
+                </h1>
               </div>
             </div>
             <Link href={`./product/${product.id}`}>
