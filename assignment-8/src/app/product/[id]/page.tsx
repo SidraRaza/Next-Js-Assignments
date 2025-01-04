@@ -1,11 +1,11 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { use, useEffect, useState } from "react";
-import { sanityClient } from "../../../sanity/lib/client";
+import {Client } from "../../../sanity/lib/client";
 import imageUrlBuilder from "@sanity/image-url";
 import Image from "next/image";
 
-const builder = imageUrlBuilder(sanityClient);
+const builder = imageUrlBuilder(Client);
 function urlFor(source: string) {
   return builder.image(source);
 }
@@ -33,7 +33,7 @@ const ProductPage = ({ params }: { params: Promise<{ id: string }> }) => {
     const fetchProduct = async () => {
       try {
         const query = `*[_types == product && id == $id][0]`;
-        const result = await sanityClient.fetch(query, {
+        const result = await Client.fetch(query, {
           id: resolvedParams.id,
         });
         setProduct(result);

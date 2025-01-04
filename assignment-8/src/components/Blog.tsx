@@ -1,12 +1,12 @@
 'use client';
 import Link from "next/link";
 import Image from "next/image";
-import { sanityClient } from "../sanity/lib/client";
+import {Client } from "../sanity/lib/client";
 import imageUrlBuilder from "@sanity/image-url";
 import { fetchProducts } from "../sanity/lib/client";
 import { useEffect, useState } from "react";
 
-const builder = imageUrlBuilder(sanityClient);
+const builder = imageUrlBuilder(Client);
 function urlFor(source: string) {
   return builder.image(source);
 }
