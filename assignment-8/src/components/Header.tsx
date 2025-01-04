@@ -48,9 +48,9 @@ const Header = () => {
         </div>
       <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
-        <AccordionTrigger className="text-black hover:text-orange-500">Categories</AccordionTrigger>
+        <AccordionTrigger className="text-black hover:text-orange-500">Blog</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-2 ml-10  ">
-          <Link href="/blog" className="hover:text-orange-500">blog</Link>
+          <Link href="/" className="hover:text-orange-500">blog</Link>
          
       
    
